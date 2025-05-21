@@ -1,24 +1,17 @@
 import React from 'react';
 import logo from '../assets/icons/logo.png';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
         <header className="header">
             <img src={logo} alt="Notely" />
             <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/">Folders</a>
-                </li>
-                <li>
-                    <a href="/">About</a>
-                </li>
-                <li>
-                    <a href="/">Contact</a>
-                </li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/notes">Notes</Link></li>
+                <li><Link to="/folders">Folders</Link></li>
+                <li><Link to="/about">About</Link></li>
             </ul>
         </header>
     );

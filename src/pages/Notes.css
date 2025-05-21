@@ -1,0 +1,33 @@
+.notes-page {
+    padding: 2rem 5rem;
+    text-align: center;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 3rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.note-card {
+    background-color: #f0f0f0;
+    height: 16rem;
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.note-card:hover {
+    background-color: #e0e0e0;
+}
+
+.note-card span{
+    margin-top: 1rem;
+}
