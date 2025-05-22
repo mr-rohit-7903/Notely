@@ -8,7 +8,7 @@ function Notes() {
         { id: 1, name: 'Personal' },
         { id: 2, name: 'Work' },
         { id: 3, name: 'Ideas' },
-        { id: 4, name: 'Tmkc' }
+        { id: 4, name: 'New Notes' }
     ]);
 
     const handleDelete = (id) => {
@@ -35,7 +35,7 @@ function Notes() {
                     <div key={note.id} className="note-card">
                         <img src={NoteIcon} alt="Note" />
                         <span>{note.name}</span>
-                        <button onClick={() => handleDelete(note.id)}>🗑️</button>
+                        <button onClick={() => handleDelete(note.id)}>Delete</button>
                     </div>
                 ))}
             </div>

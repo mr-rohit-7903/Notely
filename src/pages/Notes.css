@@ -31,3 +31,9 @@
 .note-card span{
     margin-top: 1rem;
 }
+
+@media (max-width: 800px) {
+    .notes-container {
+        justify-content: center;
+    }
+}

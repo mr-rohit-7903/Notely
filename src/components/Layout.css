@@ -1,0 +1,15 @@
+.desktop-header {
+    display: flex;
+}
+.mobile-header {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .desktop-header {
+        display: none;
+    }
+    .mobile-header {
+        display: flex;
+    }
+}

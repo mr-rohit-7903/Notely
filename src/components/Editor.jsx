@@ -39,3 +39,19 @@ function Editor() {
     );
 }
 export default Editor;  
+
+
+
+// without ececCommand 
+
+//     const [isBold, setIsBold] = useState(false);
+//     return (
+//         <div>
+//             <button onClick={() => setIsBold(!isBold)}>Bold</button>
+//             <div 
+//                 contentEditable 
+//                 style={{ fontWeight: isBold ? 'bold' : 'normal' }}
+//             />
+//         </div>
+//     );
+// 

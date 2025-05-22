@@ -1,0 +1,61 @@
+.mobile-header {
+    display: none;
+    background-color: #7693cd;
+    color: white;
+    text-align: center;
+    height: 6rem;
+    z-index: 1000;
+}
+
+.mobile-header-top {
+    display: flex;
+    height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-logo {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 0.3rem;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    z-index: 1000;
+    position: fixed;
+    width: 95%;
+    left: 2.5%;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 0;
+    font-weight: 500;
+}
+
+.mobile-nav a:hover {
+    color: #7693cd;
+}
+@media (max-width: 800px) {
+    .mobile-header {
+        display: block;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+}

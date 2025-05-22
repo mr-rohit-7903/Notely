@@ -8,7 +8,7 @@ function Folders() {
         { id: 1, name: 'Personal' },
         { id: 2, name: 'Work' },
         { id: 3, name: 'Ideas' },
-        { id: 4, name: 'Tmkc' }
+        { id: 4, name: 'New Folder' }
     ]);
 
     const handleDelete = (id) => {
@@ -35,7 +35,7 @@ function Folders() {
                     <div key={folder.id} className="folder-card">
                         <img src={FolderIcon} alt="Folder" />
                         <span>{folder.name}</span>
-                        <button onClick={() => handleDelete(folder.id)}>🗑️</button>
+                        <button onClick={() => handleDelete(folder.id)}>Delete</button>
                     </div>
                 ))}
             </div>
