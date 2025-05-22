@@ -44,3 +44,15 @@
 .textarea:focus {
     outline: none;
 }
+.editor .toolbar .save{
+    background-color: #5d69d8;
+    color: white;
+    border: none;
+    height: 2rem;
+    padding-top: 0.25rem;
+    text-align: center;
+    width: 4rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
